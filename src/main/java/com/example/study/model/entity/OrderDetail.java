@@ -13,6 +13,7 @@ import java.time.LocalDateTime;
 @Data
 @NoArgsConstructor
 @Entity //order_detail에 자동적으로 연결이됨
+@ToString(exclude = {"orderGroup"})
 public class OrderDetail {
 
     @Id
@@ -37,7 +38,9 @@ public class OrderDetail {
 
     private Long itemId;
 
-    private Long orderGroupId;
+    //OrderDetail N: 1 OrderGroup
+    @ManyToOne
+    private OrderGroup orderGroup;
 
 
 
