@@ -30,5 +30,6 @@ public class OrderDetailRepositoryTest extends StudyApplicationTests {
         orderDetail.setCreatedBy("AdminServer");
         OrderDetail newOrderDetail=orderDetailRepository.save(orderDetail);
         Assert.assertNotNull(newOrderDetail);
+
     }
 }

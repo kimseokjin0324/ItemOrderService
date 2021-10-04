@@ -47,5 +47,8 @@ public class OrderGroup {
 
     private String updatedBy;
 
+    //외래키
+    private Long userId;
+
 
 }
