@@ -16,7 +16,6 @@ public class OrderDetailRepositoryTest extends StudyApplicationTests {
     public void create(){
         OrderDetail orderDetail=new OrderDetail();
 
-        orderDetail.setOrderAt(LocalDateTime.now());
 
         // 어떤 상품에 대한 인덱스아이디
 //        orderDetail.setItemId(1L);

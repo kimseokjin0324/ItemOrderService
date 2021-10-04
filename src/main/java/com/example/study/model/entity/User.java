@@ -32,7 +32,7 @@ public class User {
 
     private LocalDateTime registeredAt;
 
-    private LocalDateTime unregisterdAt;
+    private LocalDateTime unregisteredAt;
 
     private LocalDateTime createdAt;
 
